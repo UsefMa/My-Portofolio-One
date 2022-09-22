@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/My-Portofolio-One/static/css/main.0716a167.css",
+    "main.js": "/My-Portofolio-One/static/js/main.29bc7187.js",
+    "static/media/yourFlix_img.png": "/My-Portofolio-One/static/media/yourFlix_img.4b620d5513f4dfce143e.png",
+    "static/media/weather_img.png": "/My-Portofolio-One/static/media/weather_img.bbdeaea2e1471f9701cf.png",
+    "static/media/ecommerce_img.png": "/My-Portofolio-One/static/media/ecommerce_img.01256bb608f0355db6e7.png",
+    "static/media/ajiwChat_img.png": "/My-Portofolio-One/static/media/ajiwChat_img.7a2c331d588268042b52.png",
+    "static/media/crypto_img.png": "/My-Portofolio-One/static/media/crypto_img.53ede4cacb4a6039c3b9.png",
+    "index.html": "/My-Portofolio-One/index.html",
+    "main.0716a167.css.map": "/My-Portofolio-One/static/css/main.0716a167.css.map",
+    "main.29bc7187.js.map": "/My-Portofolio-One/static/js/main.29bc7187.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0716a167.css",
+    "static/js/main.29bc7187.js"
+  ]
+}
