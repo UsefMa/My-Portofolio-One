@@ -1,0 +1,92 @@
+.project-container {
+  height: 100vh;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30rem;
+}
+@media screen and (max-width: 1186px) {
+  .project-container {
+    height: 130vh;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .project-container {
+    height: 140vh;
+  }
+}
+@media screen and (max-width: 857px) {
+  .project-container {
+    height: 245vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .project-container {
+    margin-top: 40rem;
+    height: 259vh;
+  }
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+.project-text {
+  font-size: 33px;
+  margin: 1rem;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.project-container img {
+  width: 18rem;
+  
+  border-radius: 10px;
+  margin-top: 4rem;
+  margin-right: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* animation*/
+.project-container img:hover {
+  animation: rotate 1s linear infinite;
+  box-shadow: rgba(207, 153, 216, 0.3) 0px 8px 24px;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.15), rgb(0, 0, 0));
+}
+@keyframes rotate {
+  0% {
+    transform: perspective(100px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(3deg);
+  }
+}
+.btns {
+  margin-bottom: 1rem;
+}
+
+.github-btn {
+  margin-left: 7px;
+  cursor: pointer;
+  color: rgb(255, 255, 255, 0.2);
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+.github-btn:hover {
+  color: gray;
+}
+.live-btn {
+  margin-left: 7px;
+  cursor: pointer;
+  color: rgb(255, 255, 255, 0.2);
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.live-btn:hover {
+  color: gray;
+}
+.process {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  margin: 1rem;
+}

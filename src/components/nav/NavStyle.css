@@ -1,0 +1,100 @@
+.nav-container {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  top: 0%;
+  background-color: rgb(3, 3, 3);
+  height: 5rem;
+ 
+}
+.logo {
+  width: 8rem;
+  cursor: pointer;
+  border-radius: 5rem;
+}
+.humb {
+  margin-right: 2rem;
+  cursor: pointer;
+  display: none;
+}
+.nav-list {
+  display: flex;
+}
+.nav-list a {
+  list-style: none;
+  text-decoration: none;
+  margin: 4rem;
+  color: white;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.nav-list li {
+  list-style: none;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  .nav-list {
+    position: absolute;
+    flex-direction: column;
+    justify-content: start;
+    top: 90px;
+    right: 200%;
+    width: 50%;
+    height: 60vh;
+    transition: 0.4s;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 1px solid #eee;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: rgba(255, 255, 255, 0.2);
+    margin: 1rem;
+  }
+  .humb{
+    display: block;
+  }
+  .nav-container .active {
+    right: 0%;
+  }
+
+  .nav-list li {
+    margin: 2rem;
+  }
+  .nav-list a {
+    color: rgb(255, 255, 255);
+  }
+}
+@media screen and (max-width:330px) {
+    .logo{
+        width: 4rem;
+    }
+    .humb{
+      margin-right: 7rem;
+    }
+    .nav-list{
+      height: 40vh;
+    }
+    .nav-list li{
+      margin: 1rem;
+    }
+ 
+}
+ 
+
+    
+    
+    
+    
+    
+
